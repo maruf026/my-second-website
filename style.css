@@ -2,9 +2,9 @@ body{
     margin: 0;
 
     }
-}
+
 .col{
-    color: yellowgreen;
+    color: orangered;
 }
 .fsec{
     width: 40%;
@@ -50,3 +50,40 @@ section{
     padding: 5px 20px;
     border-radius: 5px;
 }
+.dream{
+    background-image: url(/image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.box{
+    box-shadow: 10px 10px 40px;
+    height: 50%;
+}
+.exp{
+    background-image: url(./image/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#borone{
+    border-left: solid 5px;
+    border-image: linear-gradient(180deg, rgb(90, 6, 226), rgb(213, 6, 186));
+    border-image-slice: 1;
+    background-color: aliceblue;
+}
+#bortwo{
+    border-left: solid 5px;
+    border-image: linear-gradient(180deg, rgb(255, 39, 1), rgb(213, 6, 186));
+    border-image-slice: 1;
+    background-color: aliceblue;
+}
+footer{
+    text-align: center;
+    font-size: medium;
+}
+#ex{
+    padding-left: 30px;
+    font-weight: 900;
+    color: blueviolet;
+}
+   
